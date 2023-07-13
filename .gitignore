@@ -1,2 +1,9 @@
 .idea
-cmake-*
+cmake*
+CMakeFiles
+Makefile
+eecbs
+*.txt
+*.csv
+*.tree
+.DS_Store

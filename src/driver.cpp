@@ -216,6 +216,7 @@ int main(int argc, char** argv)
             cbs.saveResults(vm["output"].as<string>(), vm["agents"].as<string>());
         if (cbs.solution_found && vm.count("outputPaths"))
             cbs.savePaths(vm["outputPaths"].as<string>());
+		cbs.saveCT("/Users/peterwang/Desktop/EECBS/testSaveCT");
         if (vm["stats"].as<bool>())
             cbs.saveStats(vm["output"].as<string>(), vm["agents"].as<string>());
         cbs.clearSearchEngines();
